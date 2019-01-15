@@ -3,15 +3,30 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 
 class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+아주 오래 전 한양대학교 경제학과를 졸업했다. 
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+많은 추억들이 희미해졌지만 연극반 활동을 했고, 국립극장에서 공연했던 기억,
+수학과 수업인 실해석학에 느꼈던 재미, 3학년 즈음 학교 생활이 갑갑하고 빨리 졸업하고 싶었던 마음 등은
+잊기 힘들거 같다. 
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+신한은행에서 개인금융과 기업금융업무를 했다. 추억은 개인금융에 많이 있지만 직업적인 발전과 정체성은 기업금융업무에서 갖게 되었다. 현재는 나이스평가정보에서 기업 데이터와 관련된 일을 한다.
+
+
+학부 졸업 후 거의 10년만에 방송통신대학교 통계학 석사과정을 졸업했다. 
+무척 즐거운 시간이었다.  
+
+
+최근의 관심사는 재즈 클라리넷을 보다 숙련된 솜씨로 즐겨보고 싶다.
+
+비직관적인 확률문제를 실제 일상에 대입해보는 생각을 즐긴다. 예를 들면 "잠자는 숲속의 공주", "몬티 홀" 같은 구조의 문제들에서 확률구조의 실현과 행위자들의 확률에 대한 믿음의 정도에 따라 어떤 현상들이 나타날지 생각하는게 재밌다.  
+
+데이터로부터 인과관계를 추론하는 방법에도 관심이 있다. 다양한 분야에서 논의되는 내용을 종합적으로 이해하려고 공부한다. 
+
+앞으로는 이론적 논리와 데이터를 연계한 시뮬레이션을 공부해보고 싶다. 
+
