@@ -4,9 +4,9 @@ Judong Han:
   url_full: http://desafinado.github.io/blog/
   url: desafinado.github.io/blog
   bio: student-h
-  picture: #assets/images/wp3694332.jpg
-  facebook: #ghost
-  twitter: #tryghost
+  picture: assets/images/wp3694332.jpg
+  facebook: False
+  twitter: False
   cover: False
 ghost:
   username: ghost
