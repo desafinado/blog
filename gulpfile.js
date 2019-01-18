@@ -1,72 +1,137 @@
-var gulp = require('gulp');
+"use strict";
 
-// gulp plugins and utils
-var gutil = require('gulp-util');
-//var livereload = require('gulp-livereload');
-//var nodemon = require('gulp-nodemon');
-var postcss = require('gulp-postcss');
-var sourcemaps = require('gulp-sourcemaps');
-//var zip = require('gulp-zip');
+// Load plugins
+const autoprefixer = require("autoprefixer");
+const browsersync = require("browser-sync").create();
+const cp = require("child_process");
+const cssnano = require("cssnano");
+const del = require("del");
+const eslint = require("gulp-eslint");
+const gulp = require("gulp");
+const imagemin = require("gulp-imagemin");
+const newer = require("gulp-newer");
+const plumber = require("gulp-plumber");
+const postcss = require("gulp-postcss");
+const rename = require("gulp-rename");
+const sass = require("gulp-sass");
+const webpack = require("webpack");
+//const webpackconfig = require("./webpack.config.js");
+const webpackstream = require("webpack-stream");
 
-// postcss plugins
-var autoprefixer = require('autoprefixer');
-var colorFunction = require('postcss-color-function');
-var cssnano = require('cssnano');
-var customProperties = require('postcss-custom-properties');
-var easyimport = require('postcss-easy-import');
+// BrowserSync
+function browserSync(done) {
+  browsersync.init({
+    server: {
+      baseDir: "./_site/"
+    },
+    port: 3000
+  });
+  done();
+}
 
-/*var swallowError = function swallowError(error) {
-    gutil.log(error.toString());
-    gutil.beep();
-    this.emit('end');
-};
+// BrowserSync Reload
+function browserSyncReload(done) {
+  browsersync.reload();
+  done();
+}
 
-var nodemonServerInit = function () {
-    livereload.listen(1234);
-};
-*/
-//gulp.task('build', ['css'], function (/* cb */) {
-//    return nodemonServerInit();
-//});
+// Clean assets
+function clean() {
+  return del(["./_site/assets/"]);
+}
 
+// Optimize Images
+function images() {
+  return gulp
+    .src("./assets/img/**/*")
+    .pipe(newer("./_site/assets/img"))
+    .pipe(
+      imagemin([
+        imagemin.gifsicle({ interlaced: true }),
+        imagemin.jpegtran({ progressive: true }),
+        imagemin.optipng({ optimizationLevel: 5 }),
+        imagemin.svgo({
+          plugins: [
+            {
+              removeViewBox: false,
+              collapseGroups: true
+            }
+          ]
+        })
+      ])
+    )
+    .pipe(gulp.dest("./_site/assets/img"));
+}
 
-gulp.task('css', function () {
-    var processors = [
-        easyimport,
-        customProperties,
-        colorFunction(),
-        autoprefixer({browsers: ['last 2 versions']}),
-        cssnano()
-    ];
+// CSS task
+function css() {
+  return gulp
+    .src("./assets/scss/*.css")
+//    .pipe(plumber())
+    .pipe(sass({ outputStyle: "expanded" }))
+    .pipe(gulp.dest("./_site/assets/css/"))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(postcss([autoprefixer(), cssnano()]))
+    .pipe(gulp.dest("assets/built/"))
+    .pipe(browsersync.stream());
+}
 
-    return gulp.src('assets/css/*.css')
-        .on('error', swallowError)
-        .pipe(sourcemaps.init())
-        .pipe(postcss(processors))
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('assets/built/'))
-        .pipe(livereload());
-});
-/*
-gulp.task('watch', function () {
-    gulp.watch('assets/css/**', ['css']);
-});
+// Lint scripts
+//function scriptsLint() {
+//  return gulp
+//    .src(["./assets/js/**/*", "./gulpfile.js"])
+ //   .pipe(plumber())
+//    .pipe(eslint())
+//    .pipe(eslint.format())
+//    .pipe(eslint.failAfterError());
+//}
 
-gulp.task('zip', ['css'], function() {
-    var targetDir = 'dist/';
-    var themeName = require('./package.json').name;
-    var filename = themeName + '.zip';
+// Transpile, concatenate and minify scripts
+function scripts() {
+  return (
+    gulp
+      .src(["./assets/js/**/*"])
+ //     .pipe(plumber())
+      .pipe(webpackstream(webpackconfig, webpack))
+      // folder only, filename is specified in webpack config
+      .pipe(gulp.dest("./_site/assets/js/"))
+      .pipe(browsersync.stream())
+  );
+}
 
-    return gulp.src([
-        '**',
-        '!node_modules', '!node_modules/**',
-        '!dist', '!dist/**'
-    ])
-        .pipe(zip(filename))
-        .pipe(gulp.dest(targetDir));
-});
+// Jekyll
+function jekyll() {
+  return cp.spawn("bundle", ["exec", "jekyll", "build"], { stdio: "inherit" });
+}
 
-gulp.task('default', ['build'], function () {
-    gulp.start('watch');
-});
-*/
+// Watch files
+function watchFiles() {
+  gulp.watch("./assets/scss/**/*", css);
+//  gulp.watch("./assets/js/**/*", gulp.series(scriptsLint, scripts));
+  gulp.watch(
+    [
+      "./_includes/**/*",
+      "./_layouts/**/*",
+      "./_pages/**/*",
+      "./_posts/**/*",
+      "./_projects/**/*"
+    ],
+    gulp.series(jekyll, browserSyncReload)
+  );
+  gulp.watch("./assets/img/**/*", images);
+}
+
+//// define complex tasks
+//const js = gulp.series(scriptsLint, scripts);
+const build = gulp.series(clean, gulp.parallel(css, images));
+const watch = gulp.parallel(watchFiles, browserSync);
+
+// export tasks
+exports.images = images;
+exports.css = css;
+//exports.js = js;
+exports.jekyll = jekyll;
+exports.clean = clean;
+exports.build = build;
+exports.watch = watch;
+exports.default = build;
