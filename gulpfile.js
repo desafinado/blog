@@ -66,9 +66,9 @@ function images() {
 // CSS task
 function css() {
   return gulp
-    .src("./assets/scss/*.css")
+    .src("./assets/css/*.css")
 //    .pipe(plumber())
-    .pipe(sass({ outputStyle: "expanded" }))
+//    .pipe(sass({ outputStyle: "expanded" }))
     .pipe(gulp.dest("./_site/assets/css/"))
     .pipe(rename({ suffix: ".min" }))
     .pipe(postcss([autoprefixer(), cssnano()]))
