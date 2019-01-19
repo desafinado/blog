@@ -36,14 +36,14 @@ function browserSyncReload(done) {
 }
 
 // Clean assets
-function clean() {
-  return del(["./assets/"]);
-}
+//function clean() {
+//  return del(["./assets/"]);
+//}
 
 // Optimize Images
 function images() {
   return gulp
-    .src("./assets/images/**/*")
+    .src("assets/images/**/*")
     .pipe(newer("./assets/images"))
     .pipe(
       imagemin([
@@ -60,16 +60,16 @@ function images() {
         })
       ])
     )
-    .pipe(gulp.dest("./assets/images"));
+    .pipe(gulp.dest("assets/images"));
 }
 
 // CSS task
 function css() {
   return gulp
-    .src("./assets/css/*.css")
+    .src("assets/css/*.css")
 //    .pipe(plumber())
 //    .pipe(sass({ outputStyle: "expanded" }))
-    .pipe(gulp.dest("./assets/css/"))
+    .pipe(gulp.dest("assets/css/"))
     .pipe(rename({ suffix: ".min" }))
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(gulp.dest("assets/built/"))
@@ -90,11 +90,11 @@ function css() {
 function scripts() {
   return (
     gulp
-      .src(["./assets/js/**/*"])
+      .src(["assets/js/**/*"])
  //     .pipe(plumber())
       .pipe(webpackstream(webpackconfig, webpack))
       // folder only, filename is specified in webpack config
-      .pipe(gulp.dest("./assets/js/"))
+      .pipe(gulp.dest("assets/js/"))
       .pipe(browsersync.stream())
   );
 }
@@ -118,12 +118,12 @@ function watchFiles() {
     ],
     gulp.series(jekyll, browserSyncReload)
   );
-  gulp.watch("./assets/images/**/*", images);
+  gulp.watch("assets/images/**/*", images);
 }
 
 //// define complex tasks
 //const js = gulp.series(scriptsLint, scripts);
-const build = gulp.series(clean, gulp.parallel(css, images));
+const build = gulp.series(gulp.parallel(css, images));
 const watch = gulp.parallel(watchFiles, browserSync);
 
 // export tasks
@@ -131,7 +131,7 @@ exports.images = images;
 exports.css = css;
 //exports.js = js;
 exports.jekyll = jekyll;
-exports.clean = clean;
+//exports.clean = clean;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
