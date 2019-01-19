@@ -62,10 +62,11 @@
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
                 <section class="copyright"><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a> &copy; {{  site.time | date: '%Y' }}</section>
-<!--                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
-                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
-                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+              <section class="poweredby">Published with <a href="https://jekyllrb.com/">Jekyll</a> using
+<!--                      <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
 -->
+                    <a href="https://github.com/desafinado/blog" target="_blank" rel="noopener">desafinado Github</a></section>
+
                 <nav class="site-footer-nav">
                     <a href="{{ site.baseurl }}">Latest Posts</a>
                     {% if site.facebook %}<a href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>{% endif %}
@@ -78,7 +79,6 @@
     </div>
 
     <!-- The big email subscribe modal content -->
-    <!--
     {% if site.subscribers %}
         <div id="subscribe" class="subscribe-overlay">
             <a class="subscribe-overlay-close" href="#"></a>
@@ -86,13 +86,13 @@
                 {% if site.logo %}
                     <img class="subscribe-overlay-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" />
                 {% endif %}
-                <h1 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                {% include subscribe-form.html placeholder="youremail@example.com" %}
+                <h3 class="subscribe-overlay-title">Search Posts {{ site.title }}</h3>
+                <p class="subscribe-overlay-description">Desafinado Blog Posts 검색</p>
+                {% include subscribe-form.html placeholder="keyword" %}
             </div>
         </div>
     {% endif %}
-    -->
+  
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
     <script>$(document).ready(function() {
