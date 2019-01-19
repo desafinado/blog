@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/getting-started/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-01-19T03:38:44+00:00</updated>
+  <updated>2019-01-19T03:43:34+00:00</updated>
   <id>/blog/tag/getting-started/feed.xml</id>
 
   
@@ -46,14 +46,12 @@
 
   
     <entry>
-      <title type="html">The Sleeping Beauty Controversy</title>
-      <link href="/blog/SB" rel="alternate" type="text/html" title="The Sleeping Beauty Controversy" />
+      <title type="html">여러분은 Halfer인가? Thirder인가? - The Sleeping Beauty Controversy</title>
+      <link href="/blog/SB" rel="alternate" type="text/html" title="여러분은 Halfer인가? Thirder인가? - The Sleeping Beauty Controversy" />
       <published>2019-01-06T00:00:00+00:00</published>
       <updated>2019-01-06T00:00:00+00:00</updated>
       <id>/blog/SB</id>
-      <content type="html" xml:base="/blog/SB">&lt;p&gt;여러분은 Halfer인가? Thirder인가?&lt;/p&gt;
-
-&lt;p&gt;Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) &lt;br /&gt;
+      <content type="html" xml:base="/blog/SB">&lt;p&gt;Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) &lt;br /&gt;
 Sleeping Beauty agrees to the following experiment. On Sunday, she is put to sleep, and a fair coin is flipped.
 If it comes up Heads, she is awakened on Monday morning; if Tails, she is awakened on Monday morning and again on Tuesday morning.
 In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening.
@@ -78,7 +76,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
       
 
       
-        <summary type="html">여러분은 Halfer인가? Thirder인가?</summary>
+        <summary type="html">Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) Sleeping Beauty agrees to the following experiment. On Sunday, she is put to sleep, and a fair coin is flipped. If it comes up Heads, she is awakened on Monday morning; if Tails, she is awakened on Monday morning and again on Tuesday morning. In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening. When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the probability that the coin came up Heads?</summary>
       
 
       
@@ -91,9 +89,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
       <published>2019-01-01T00:00:00+00:00</published>
       <updated>2019-01-01T00:00:00+00:00</updated>
       <id>/blog/plan19</id>
-      <content type="html" xml:base="/blog/plan19">&lt;p&gt;2018년 회고와 올해 계획&lt;/p&gt;
-
-&lt;p&gt;2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.&lt;/p&gt;
+      <content type="html" xml:base="/blog/plan19">&lt;p&gt;2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.&lt;/p&gt;
 
 &lt;p&gt;회사일 외에도 몇몇 재미있는 프로젝트와 공부를 하였다. 정부지원사업의 성과평가에 대한 재밌는 공부를 했고, 계량경제학에서 발전하고 있는 정책효과 방법론에 대해 공부했다. 잔차를 통한 추론은 생각할수록 재미있는 주제다. 모르는 것들로부터 무엇을 알수 있을까?&lt;/p&gt;
 
@@ -124,7 +120,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
       
 
       
-        <summary type="html">2018년 회고와 올해 계획</summary>
+        <summary type="html">2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.</summary>
       
 
       
@@ -137,9 +133,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
       <published>2018-01-01T00:00:00+00:00</published>
       <updated>2018-01-01T00:00:00+00:00</updated>
       <id>/blog/plan</id>
-      <content type="html" xml:base="/blog/plan">&lt;p&gt;2018년 새해 계획&lt;/p&gt;
-
-&lt;p&gt;머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.&lt;/p&gt;
+      <content type="html" xml:base="/blog/plan">&lt;p&gt;머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.&lt;/p&gt;
 
 &lt;h3 id=&quot;game-theory-공부-및-실습&quot;&gt;Game theory 공부 및 실습&lt;/h3&gt;
 &lt;p&gt;이론 공부하고 응용 econometirics로 확장하기.&lt;/p&gt;
@@ -183,7 +177,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
       
 
       
-        <summary type="html">2018년 새해 계획</summary>
+        <summary type="html">머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.</summary>
       
 
       

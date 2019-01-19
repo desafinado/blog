@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2019-01-19T03:38:44+00:00</updated><id>/blog/</id><title type="html">Desafinado</title><subtitle>slightly out of tune</subtitle><entry><title type="html">The Sleeping Beauty Controversy</title><link href="/blog/SB" rel="alternate" type="text/html" title="The Sleeping Beauty Controversy" /><published>2019-01-06T00:00:00+00:00</published><updated>2019-01-06T00:00:00+00:00</updated><id>/blog/SB</id><content type="html" xml:base="/blog/SB">&lt;p&gt;여러분은 Halfer인가? Thirder인가?&lt;/p&gt;
-
-&lt;p&gt;Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) &lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2019-01-19T03:43:34+00:00</updated><id>/blog/</id><title type="html">Desafinado</title><subtitle>slightly out of tune</subtitle><entry><title type="html">여러분은 Halfer인가? Thirder인가? - The Sleeping Beauty Controversy</title><link href="/blog/SB" rel="alternate" type="text/html" title="여러분은 Halfer인가? Thirder인가? - The Sleeping Beauty Controversy" /><published>2019-01-06T00:00:00+00:00</published><updated>2019-01-06T00:00:00+00:00</updated><id>/blog/SB</id><content type="html" xml:base="/blog/SB">&lt;p&gt;Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) &lt;br /&gt;
 Sleeping Beauty agrees to the following experiment. On Sunday, she is put to sleep, and a fair coin is flipped.
 If it comes up Heads, she is awakened on Monday morning; if Tails, she is awakened on Monday morning and again on Tuesday morning.
 In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening.
-When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the probability that the coin came up Heads?&lt;/p&gt;</content><author><name>Hahn</name></author><category term="Getting started" /><summary type="html">여러분은 Halfer인가? Thirder인가?</summary></entry><entry><title type="html">2018년 회고와 올해 계획</title><link href="/blog/plan19" rel="alternate" type="text/html" title="2018년 회고와 올해 계획" /><published>2019-01-01T00:00:00+00:00</published><updated>2019-01-01T00:00:00+00:00</updated><id>/blog/plan19</id><content type="html" xml:base="/blog/plan19">&lt;p&gt;2018년 회고와 올해 계획&lt;/p&gt;
-
-&lt;p&gt;2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.&lt;/p&gt;
+When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the probability that the coin came up Heads?&lt;/p&gt;</content><author><name>Hahn</name></author><category term="Getting started" /><summary type="html">Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) Sleeping Beauty agrees to the following experiment. On Sunday, she is put to sleep, and a fair coin is flipped. If it comes up Heads, she is awakened on Monday morning; if Tails, she is awakened on Monday morning and again on Tuesday morning. In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening. When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the probability that the coin came up Heads?</summary></entry><entry><title type="html">2018년 회고와 올해 계획</title><link href="/blog/plan19" rel="alternate" type="text/html" title="2018년 회고와 올해 계획" /><published>2019-01-01T00:00:00+00:00</published><updated>2019-01-01T00:00:00+00:00</updated><id>/blog/plan19</id><content type="html" xml:base="/blog/plan19">&lt;p&gt;2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.&lt;/p&gt;
 
 &lt;p&gt;회사일 외에도 몇몇 재미있는 프로젝트와 공부를 하였다. 정부지원사업의 성과평가에 대한 재밌는 공부를 했고, 계량경제학에서 발전하고 있는 정책효과 방법론에 대해 공부했다. 잔차를 통한 추론은 생각할수록 재미있는 주제다. 모르는 것들로부터 무엇을 알수 있을까?&lt;/p&gt;
 
@@ -16,9 +12,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
 
 &lt;p&gt;올해에는 메커니즘 디자인에 대해 공부해보려 한다.&lt;/p&gt;
 
-&lt;p&gt;시간을 효율적으로 잘 써야겠다.&lt;/p&gt;</content><author><name>Hahn</name></author><category term="Getting started" /><summary type="html">2018년 회고와 올해 계획</summary></entry><entry><title type="html">2018년 새해 계획</title><link href="/blog/plan" rel="alternate" type="text/html" title="2018년 새해 계획" /><published>2018-01-01T00:00:00+00:00</published><updated>2018-01-01T00:00:00+00:00</updated><id>/blog/plan</id><content type="html" xml:base="/blog/plan">&lt;p&gt;2018년 새해 계획&lt;/p&gt;
-
-&lt;p&gt;머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.&lt;/p&gt;
+&lt;p&gt;시간을 효율적으로 잘 써야겠다.&lt;/p&gt;</content><author><name>Hahn</name></author><category term="Getting started" /><summary type="html">2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.</summary></entry><entry><title type="html">2018년 새해 계획</title><link href="/blog/plan" rel="alternate" type="text/html" title="2018년 새해 계획" /><published>2018-01-01T00:00:00+00:00</published><updated>2018-01-01T00:00:00+00:00</updated><id>/blog/plan</id><content type="html" xml:base="/blog/plan">&lt;p&gt;머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.&lt;/p&gt;
 
 &lt;h3 id=&quot;game-theory-공부-및-실습&quot;&gt;Game theory 공부 및 실습&lt;/h3&gt;
 &lt;p&gt;이론 공부하고 응용 econometirics로 확장하기.&lt;/p&gt;
@@ -41,7 +35,7 @@ When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the pr
 &lt;p&gt;다사다난했던 2005년부터 현재까지 일인칭 작가 시점에서 써보고자 한다. 더 나아가면 학창 시절까지 써보고 싶다.&lt;/p&gt;
 
 &lt;p&gt;이것 밖에 없나?
-나의 에고(ego) 작렬했던 시절 좋아했던 얀톤 체홉의 초상과 함께 올해 첫글을 쓴다.&lt;/p&gt;</content><author><name>Hahn</name></author><category term="Getting started" /><summary type="html">2018년 새해 계획</summary></entry><entry><title type="html">여름 가까운 어느날 꿈의 기록</title><link href="/blog/memory" rel="alternate" type="text/html" title="여름 가까운 어느날 꿈의 기록" /><published>2017-12-16T10:00:00+00:00</published><updated>2017-12-16T10:00:00+00:00</updated><id>/blog/memory</id><content type="html" xml:base="/blog/memory">&lt;p&gt;숲속의 밤일까? 동굴 속의 밤일까?&lt;/p&gt;
+나의 에고(ego) 작렬했던 시절 좋아했던 얀톤 체홉의 초상과 함께 올해 첫글을 쓴다.&lt;/p&gt;</content><author><name>Hahn</name></author><category term="Getting started" /><summary type="html">머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.</summary></entry><entry><title type="html">여름 가까운 어느날 꿈의 기록</title><link href="/blog/memory" rel="alternate" type="text/html" title="여름 가까운 어느날 꿈의 기록" /><published>2017-12-16T10:00:00+00:00</published><updated>2017-12-16T10:00:00+00:00</updated><id>/blog/memory</id><content type="html" xml:base="/blog/memory">&lt;p&gt;숲속의 밤일까? 동굴 속의 밤일까?&lt;/p&gt;
 
 &lt;p&gt;새까만 어둠 속 저 멀리서&lt;br /&gt;
 예쁘게 빛나는 불빛들이 하울하울 춤추며 다가온다.&lt;/p&gt;
