@@ -76,6 +76,8 @@ destination: ../blog-pages/
 production_url:  https://desafinado.github.io/blog/
 source_url:  https://github.com/desafinado/blog/
 
+google_fonts : "Nanum+Gothic:400,700"
+
 exclude:
   - assets/css
   - node_modules
