@@ -11,7 +11,7 @@
 
 
 
-    <title>About</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -39,31 +39,28 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="slightly out of tune" />
     <link rel="shortcut icon" href="/blog/" type="image/png" />
-    <link rel="canonical" href="/blog/about/" />
+    <link rel="canonical" href="/blog/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Desafinado" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="About" />
-    <meta property="og:description" content="십 여년 전에 한양대학교 경제학과를 졸업했다. 많은 추억들이 희미해졌지만 연극반 활동을 했고 국립극장에서 공연했던 기억, 수학과 수업인 실해석학에 느꼈던 재미, 3학년 즈음 학교 생활이 갑갑하고 빨리 졸업하고 싶었던 마음 등은 잊기 힘들거 같다. 신한은행에서 개인금융과 기업금융업무를 했다. 추억은 개인금융에 많이 있지만 직업적인 발전과 정체성은 기업금융업무에서 갖게 되었다. 현재는 나이스평가정보에서 일한다." />
-    <meta property="og:url" content="/blog/about/" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="slightly out of tune" />
+    <meta property="og:url" content="/blog/search" />
     <meta property="og:image" content="/blog/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
-    <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="" />
-    <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="십 여년 전에 한양대학교 경제학과를 졸업했다. 많은 추억들이 희미해졌지만 연극반 활동을 했고 국립극장에서 공연했던 기억, 수학과 수업인 실해석학에 느꼈던 재미, 3학년 즈음 학교 생활이 갑갑하고 빨리 졸업하고 싶었던 마음 등은 잊기 힘들거 같다. 신한은행에서 개인금융과 기업금융업무를 했다. 추억은 개인금융에 많이 있지만 직업적인 발전과 정체성은 기업금융업무에서 갖게 되었다. 현재는 나이스평가정보에서 일한다." />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="slightly out of tune" />
     <meta name="twitter:url" content="/blog/" />
     <meta name="twitter:image" content="/blog/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Desafinado" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
-    <meta property="og:image:width" content="1400" />
-    <meta property="og:image:height" content="933" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
 
     <script type="application/ld+json">
 {
@@ -74,7 +71,7 @@
         "name": "Desafinado",
         "logo": "/blog/"
     },
-    "url": "/blog/about/",
+    "url": "/blog/search",
     "image": {
         "@type": "ImageObject",
         "url": "/blog/assets/images/blog-cover.jpg",
@@ -83,9 +80,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/blog/about/"
+        "@id": "/blog/search"
     },
-    "description": "십 여년 전에 한양대학교 경제학과를 졸업했다. 많은 추억들이 희미해졌지만 연극반 활동을 했고 국립극장에서 공연했던 기억, 수학과 수업인 실해석학에 느꼈던 재미, 3학년 즈음 학교 생활이 갑갑하고 빨리 졸업하고 싶었던 마음 등은 잊기 힘들거 같다. 신한은행에서 개인금융과 기업금융업무를 했다. 추억은 개인금융에 많이 있지만 직업적인 발전과 정체성은 기업금융업무에서 갖게 되었다. 현재는 나이스평가정보에서 일한다."
+    "description": "slightly out of tune"
 }
     </script>
 
@@ -98,7 +95,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="About" href="/blog/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/blog/feed.xml" />
 
 
 </head>
@@ -154,32 +151,62 @@ into the {body} of the default.hbs template -->
         <article class="post-full post page no-image">
 
             <header class="post-full-header">
-                <h1 class="post-full-title">About</h1>
+                <h1 class="post-full-title">Search Result</h1>
             </header>
 
             
 
             <section class="post-full-content">
-                <p>십 여년 전에 한양대학교 경제학과를 졸업했다.</p>
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-<p>많은 추억들이 희미해졌지만 연극반 활동을 했고 국립극장에서 공연했던 기억,
-수학과 수업인 실해석학에 느꼈던 재미, 3학년 즈음 학교 생활이 갑갑하고 빨리 졸업하고 싶었던 마음 등은
-잊기 힘들거 같다.</p>
+<ul class="mylist" id="search-results"></ul>
 
-<p>신한은행에서 개인금융과 기업금융업무를 했다. 추억은 개인금융에 많이 있지만 직업적인 발전과 정체성은 기업금융업무에서 갖게 되었다. 현재는 나이스평가정보에서 일한다.</p>
-
-<p>학부 졸업 후 거의 10년만에 방송통신대학교 통계학 석사과정을 졸업했다. 
-무척 즐거운 시간이었다.</p>
-
-<p>최근의 관심사는 재즈 클라리넷을 보다 숙련된 솜씨로 즐겨보고 싶다.</p>
-
-<p>비직관적인 확률문제를 실제 일상에 대입해보는 생각을 즐긴다. 예를 들면 “잠자는 숲속의 공주”, “몬티 홀” 같은 구조의 문제들에서 확률구조의 실현과 행위자들의 확률에 대한 믿음의 정도에 따라 어떤 현상들이 나타날지 생각하는게 재밌다.</p>
-
-<p>데이터로부터 인과관계를 추론하는 방법에도 관심이 있다. 
-지금까지는 데이터 데이터 데이터였으나, 
-요즘은 점점 관측할 수 없거나 실현되지 않은 것들에 대해 관심이 생긴다.</p>
-
-
+<script>
+    window.store = {
+    
+    "sb": {
+        "title": "여러분은 Halfer인가? Thirder인가? - The Sleeping Beauty Controversy",
+            "author": "Hahn",
+            "category": "",
+            "content": "Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) Sleeping Beauty agrees to the following experiment. On Sunday, she is put to sleep, and a fair coin is flipped.If it comes up Heads, she is awakened on Monday morning; if Tails, she is awakened on Monday morning and again on Tuesday morning.In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening.When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the probability that the coin came up Heads?",
+        "url": "/SB"
+    }
+    ,
+    
+    "plan19": {
+        "title": "2018년 회고와 올해 계획",
+            "author": "Hahn",
+            "category": "",
+            "content": "2018년은 무척 즐거운 일들이 많았다. 회사에서는 새로운 부서에서 일하기 시작했고 다양한 사람들을 만날 수 있었다.회사일 외에도 몇몇 재미있는 프로젝트와 공부를 하였다. 정부지원사업의 성과평가에 대한 재밌는 공부를 했고, 계량경제학에서 발전하고 있는 정책효과 방법론에 대해 공부했다. 잔차를 통한 추론은 생각할수록 재미있는 주제다. 모르는 것들로부터 무엇을 알수 있을까?한양대에서 좋은 기회로 세미나를 진행하기도 했고, 경제학과에서 텍스트마이닝을 강의하였다. 물론 방송통신대학교에서의 졸업논문이 계기가 되었다.클라리넷은 찰리 파커의 곡을 연습해본 것이 재밌었다.올해에는 메커니즘 디자인에 대해 공부해보려 한다.시간을 효율적으로 잘 써야겠다.",
+        "url": "/plan19"
+    }
+    ,
+    
+    "plan": {
+        "title": "2018년 새해 계획",
+            "author": "Hahn",
+            "category": "",
+            "content": "머릿속에 계획이 가장 많을 시간인 새해 첫날 즉흥적으로 올해 계획을 적는다.Game theory 공부 및 실습이론 공부하고 응용 econometirics로 확장하기.이론은 게임이론(왕규호,조인구), 게임이론과 진화 다이내믹스(최정규).  수학책이라 도움이 될지 모르겠지만 Mathematical Methods of Game and Economic Theory(Audin).  컴퓨터 사이언스 쪽의 책이라 도움이 될지 모르겠지만 Multiagent Systems-Algorithmic, Game-Theoretic, and Logical Foundations.  미시경제학, 네트워크 이론, 게임이론을 융합하려고 노력하는 Matthew O. Jackson의 Social and Economic Networks 이 정도로 공부해볼까 한다.‘이론의 논리를 데이터에서 인식할 수 있는가’는 또 다른 광활한 영역이다. 미시경제학에서 계량경제학이 어떻게 쓰이는지 좀 알아봐야할 거 같다. Angrist의 Mostly Harmless Econometrics에서 출발해보려 한다.게임이론과 계량경제학은 Game Theory and Econometrics: A Survey of Some Recent Research논문에서 출발점을 잡을 수 있지 않을까? 이렇게 블로그를 쓸 시간에 논문을 읽으면 어떻까?Microsoft Research에서도 최근에 이런 주제를 다룬다.데이터로부터 과점시장들을 식별하고 어떤 종류의 게임들이 가능하고 균형은 어떠한지. 이러한 작업이 가능하다면 어느 정도 깊이와 폭까지 나아갈 수 있을지 궁금하다.통계학적 방법론 조금 더 나가기앤드류 겔만(Andrew Gelman)이 베이지안 통계학이 필요한 이유로 ‘데이터는 항상 부족하다.’라는 말을 했다고 한다. 하지만 prior 역시 항상 부족하다. 나의 성향이 데이터를 통한 일반화보다 로직을 데이터로 검증하는 것에 더 가까운 것 같다. 검증 문제가 아니라도 논리적 prior가 중요한 요소라고 생각한다. Game theory를 공부하려는 이유도 그렇다. 하지만 몇가지 통계학적 기법을 잘 익히는 것은 필요해 보인다. 그중에 눈에 들어오는 것이 Multi-level model에 대한 것이다. 이것은 하나 하나 보이는대로 해보기로 한다.영어공부 하기이건 온라인 학원 구매해서 해보려 한다.^^* 토플 100점+alpha ?지난 10여년간 직장생활 히스토리 정리하기다사다난했던 2005년부터 현재까지 일인칭 작가 시점에서 써보고자 한다. 더 나아가면 학창 시절까지 써보고 싶다.이것 밖에 없나?나의 에고(ego) 작렬했던 시절 좋아했던 얀톤 체홉의 초상과 함께 올해 첫글을 쓴다.",
+        "url": "/plan"
+    }
+    ,
+    
+    "memory": {
+        "title": "여름 가까운 어느날 꿈의 기록",
+            "author": "Hahn",
+            "category": "",
+            "content": "숲속의 밤일까? 동굴 속의 밤일까?새까만 어둠 속 저 멀리서예쁘게 빛나는 불빛들이 하울하울 춤추며 다가온다.색들이 어둠 속에서 스스로 빛을 내는지아니면 보이지 않는 곳에서 빛을 받는지 여러 색깔로 변해 가며 다가온다.내가 누나에게 물었다 이게 무엇인지. 새벽이 올 땐 언제나 그랬단다.새벽이 올 땐 언제나 아름다웠는데 모르고 살았구나.불빛들이 점점 다가오다가 드디어 내 앞을 지나간다.점점이 빛나던 불빛들은 하얀 옷을 입은 어린아이들이 들고 있는 반짝이는 물건이었다.어린아이들이 나를 쳐다보며 지나가고 또 어디론가 나간다.웃으며 나가기도 하고 나를 빤히 쳐다보며 나가기도 한다.밖은 하얀 햇살이 쏟아지는 대낮이다.첫째가 태어나기 몇 개월 전의 꿈이다.첫 글로 당시에 꿈을 글로 남겨놓았던 것을 가져왔다.",
+        "url": "/memory"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
             </section>
 
         </article>
