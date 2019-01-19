@@ -14,3 +14,11 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+story:
+  name: story
+  description: False
+  cover: False
+book:
+  name: book
+  description: False
+  cover: False
