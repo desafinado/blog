@@ -19,21 +19,21 @@ const webpack = require("webpack");
 const webpackstream = require("webpack-stream");
 
 // BrowserSync
-function browserSync(done) {
-  browsersync.init({
-    server: {
-      baseDir: ""
-    },
-    port: 3000
-  });
-  done();
-}
+//function browserSync(done) {
+//  browsersync.init({
+//    server: {
+//      baseDir: ""
+//    },
+//    port: 3000
+//  });
+//  done();
+//}
 
 // BrowserSync Reload
-function browserSyncReload(done) {
-  browsersync.reload();
-  done();
-}
+//function browserSyncReload(done) {
+//  browsersync.reload();
+//  done();
+//}
 
 // Clean assets
 //function clean() {
@@ -41,27 +41,27 @@ function browserSyncReload(done) {
 //}
 
 // Optimize Images
-function images() {
-  return gulp
-    .src("assets/images/**/*")
-    .pipe(newer("./assets/images"))
-    .pipe(
-      imagemin([
-        imagemin.gifsicle({ interlaced: true }),
-        imagemin.jpegtran({ progressive: true }),
-        imagemin.optipng({ optimizationLevel: 5 }),
-        imagemin.svgo({
-          plugins: [
-            {
-              removeViewBox: false,
-              collapseGroups: true
-            }
-          ]
-        })
-      ])
-    )
-    .pipe(gulp.dest("assets/images"));
-}
+//function images() {
+//  return gulp
+//    .src("assets/images/**/*")
+//    .pipe(newer("./assets/images"))
+//    .pipe(
+//      imagemin([
+//        imagemin.gifsicle({ interlaced: true }),
+//        imagemin.jpegtran({ progressive: true }),
+//        imagemin.optipng({ optimizationLevel: 5 }),
+//        imagemin.svgo({
+//          plugins: [
+//            {
+//              removeViewBox: false,
+//              collapseGroups: true
+//            }
+//          ]
+//        })
+//      ])
+//    )
+//    .pipe(gulp.dest("assets/images"));
+//}
 
 // CSS task
 function css() {
@@ -73,7 +73,7 @@ function css() {
     .pipe(rename({ suffix: ".min" }))
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(gulp.dest("assets/built/"))
-    .pipe(browsersync.stream());
+//    .pipe(browsersync.stream());
 }
 
 // Lint scripts
@@ -123,11 +123,11 @@ function watchFiles() {
 
 //// define complex tasks
 //const js = gulp.series(scriptsLint, scripts);
-const build = gulp.series(gulp.parallel(css, images));
-const watch = gulp.parallel(watchFiles, browserSync);
+const build = gulp.series(gulp.parallel(css));
+const watch = gulp.parallel(watchFiles);
 
 // export tasks
-exports.images = images;
+//exports.images = images;
 exports.css = css;
 //exports.js = js;
 exports.jekyll = jekyll;
