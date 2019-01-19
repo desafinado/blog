@@ -22,7 +22,7 @@ const webpackstream = require("webpack-stream");
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./_site/"
+      baseDir: ""
     },
     port: 3000
   });
@@ -37,14 +37,14 @@ function browserSyncReload(done) {
 
 // Clean assets
 function clean() {
-  return del(["./_site/assets/"]);
+  return del(["./assets/"]);
 }
 
 // Optimize Images
 function images() {
   return gulp
-    .src("./assets/img/**/*")
-    .pipe(newer("./_site/assets/img"))
+    .src("./assets/images/**/*")
+    .pipe(newer("./assets/images"))
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),
@@ -60,7 +60,7 @@ function images() {
         })
       ])
     )
-    .pipe(gulp.dest("./_site/assets/img"));
+    .pipe(gulp.dest("./assets/images"));
 }
 
 // CSS task
@@ -69,7 +69,7 @@ function css() {
     .src("./assets/css/*.css")
 //    .pipe(plumber())
 //    .pipe(sass({ outputStyle: "expanded" }))
-    .pipe(gulp.dest("./_site/assets/css/"))
+    .pipe(gulp.dest("./assets/css/"))
     .pipe(rename({ suffix: ".min" }))
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(gulp.dest("assets/built/"))
@@ -94,7 +94,7 @@ function scripts() {
  //     .pipe(plumber())
       .pipe(webpackstream(webpackconfig, webpack))
       // folder only, filename is specified in webpack config
-      .pipe(gulp.dest("./_site/assets/js/"))
+      .pipe(gulp.dest("./assets/js/"))
       .pipe(browsersync.stream())
   );
 }
@@ -118,7 +118,7 @@ function watchFiles() {
     ],
     gulp.series(jekyll, browserSyncReload)
   );
-  gulp.watch("./assets/img/**/*", images);
+  gulp.watch("./assets/images/**/*", images);
 }
 
 //// define complex tasks
