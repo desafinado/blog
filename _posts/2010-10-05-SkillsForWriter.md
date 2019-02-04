@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  
 navigation: True
-title: 작가의 기술에 관한 13개의 테제 : 반야민
+title: 작가의 기술에 관한 13개의 테제 - 반야민
 date: 2010-10-05 02:55:00
 tags: [story]
 class: post-template
@@ -11,7 +11,7 @@ subclass: 'post tag-getting-started'
 author: Hahn
 ---
 
--작가의 기술에 관한 13개의 테제
+작가의 기술에 관한 13개의 테제
 
 1.뭔가 큰 작품을 쓰려는 사람은 여유를 가질 것. 일정한 분량을 마친 후에는 글쓰기의 진행에 방해가 되지 않는 한 자신에게 모든 것을 허용할 것.
 
