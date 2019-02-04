@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  
 navigation: True
-title: 작가의 기술에 관한 13개의 테제 - 반야민
+title: 작가의 기술에 관한 13개의 테제(발터 벤야민)
 date: 2010-10-05 02:55:00
 tags: [story]
 class: post-template
