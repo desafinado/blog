@@ -21,10 +21,7 @@
 
     <!-- 웹 폰트 설정 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
-    <!-- mathjax -->
-    { % if page.use_math % }
-      { % include mathjax_support % } 
-    { % endif % }
+
     <!--[if IE]>
         <style>
             p, ol, ul{
@@ -38,7 +35,10 @@
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     {% include head.html %}
-
+    <!-- mathjax -->
+    { % if page.use_math % }
+      { % include mathjax_support % } 
+    { % endif % }
 </head>
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %}">
 
