@@ -140,5 +140,29 @@
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
     <!-- ghost_foot -->
 
+    <!-- mathjax -->
+    {% if page.use_math %}
+      {% include mathjax_support %} 
+    {% endif %}
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        // 해당 부분은 태그 옆에 숫자를 표시해준다. 싫다면 생략.
+        // TeX: {
+        //  equationNumbers: {
+        //    autoNumber: "AMS"
+        //  }
+        },
+        tex2jax: {
+          inlineMath: [ ['$','$'], ['\(', '\)'] ],
+          displayMath: [ ['$$','$$'] ],
+          processEscapes: true,
+        }
+      });
+    </script>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
 </body>
 </html>
