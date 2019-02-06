@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/book/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-02-06T15:13:01+00:00</updated>
+  <updated>2019-02-06T15:19:39+00:00</updated>
   <id>/blog/tag/book/feed.xml</id>
 
   
@@ -97,9 +97,19 @@ Tails(T) \thinspace and \thinspace Monday(M);
 \begin{equation} P(M|T) = P(U|T) \thinspace ..(2) \end{equation}&lt;/p&gt;
 
 &lt;p&gt;따라서 (1)에 의해
-\begin{equation} P(H \cap M) = P(H|M)P(M) = P(T|M)P(M) = P(T \cap M) \end{equation}
+\begin{equation} 
+  \begin{array}{l}
+P(H \cap M) = P(H|M)P(M) &lt;br /&gt;
+= P(T|M)P(M) = P(T \cap M) 
+  \end{array}
+\end{equation}
 이고, (2)에 의해
-\begin{equation} P(T \cap M) = P(M|T)P(T) = P(U|T)P(T) = P(T \cap U) \end{equation}
+\begin{equation} 
+  \begin{array}{l}
+P(T \cap M) = P(M|T)P(T) \ 
+= P(U|T)P(T) = P(T \cap U) 
+  \end{array}
+\end{equation}
 임으로,
 \begin{equation} P(H \cap M) =  P(T \cap M) = P(T \cap U) \end{equation}
 이다.&lt;/p&gt;
