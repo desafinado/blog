@@ -24,10 +24,7 @@
 
     <!-- 웹 폰트 설정 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
-    <!-- mathjax -->
-    { % if page.use_math % }
-      { % include mathjax_support % } 
-    { % endif % }
+
     <!--[if IE]>
         <style>
             p, ol, ul{
@@ -100,7 +97,10 @@
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="Desafinado" href="/blog/feed.xml" />
 
-
+    <!-- mathjax -->
+    { % if page.use_math % }
+      { % include mathjax_support % } 
+    { % endif % }
 </head>
 <body class="home-template">
 
