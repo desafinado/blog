@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/author/Hahn/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-02-07T12:59:11+00:00</updated>
+  <updated>2019-02-07T12:59:58+00:00</updated>
   <id>/blog/author/Hahn/feed.xml</id>
 
   
@@ -91,18 +91,10 @@ Tails(T) \thinspace and \thinspace Monday(M);
 직관적 풀이라면 이쯤에서 끝날 거 같다.&lt;/p&gt;
 
 &lt;p&gt;SB가 월요일날 깨어나서 오늘이 어떤 요일인지 이야기를 들었을 때, symmetric한 동전이라면 다음의 확률은 서로 같다.
-\begin{equation} P(H|M) = P(T|M) \thinspace …(1) \end{equation}
-SB가 깨어나서 동전이 뒷면(Tails)이라고 들었을 때, 월요일(M)이거나 화요일(U)일 확률도 같다.&lt;/p&gt;
+\begin{equation} P(H|M) = P(T|M) \thinspace …(1) \end{equation}&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;\begin{equation} P(M&lt;/td&gt;
-      &lt;td&gt;T) = P(U&lt;/td&gt;
-      &lt;td&gt;T) \thinspace …(2) \end{equation}&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;SB가 깨어나서 동전이 뒷면(Tails)이라고 들었을 때, 월요일(M)이거나 화요일(U)일 확률도 같다. 
+\begin{equation} P(M|T) = P(U|T) \thinspace …(2) \end{equation}&lt;/p&gt;
 
 &lt;p&gt;따라서 (1)에 의해&lt;/p&gt;
 
