@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/book/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-02-07T12:36:40+00:00</updated>
+  <updated>2019-02-07T12:44:04+00:00</updated>
   <id>/blog/tag/book/feed.xml</id>
 
   
@@ -94,14 +94,12 @@ Tails(T) \thinspace and \thinspace Monday(M);
 \begin{equation} P(H|M) = P(T|M) \thinspace …(1) \end{equation}&lt;/p&gt;
 
 &lt;p&gt;SB가 깨어나서 동전이 뒷면(Tails)이라고 들었을 때, 월요일(M)이거나 화요일(U)일 확률도 같다. 
-\begin{equation} P(M|T) = P(U|T) \thinspace …(2) \end{equation}&lt;/p&gt;
-
-&lt;p&gt;따라서 (1)에 의해
+\begin{equation} P(M|T) = P(U|T) \thinspace …(2) \end{equation}
+따라서 (1)에 의해
 \begin{equation} 
 P(H \cap M) = P(H|M)P(M) \\ = P(T|M)P(M) = P(T \cap M) 
-\end{equation}&lt;/p&gt;
-
-&lt;p&gt;이고, (2)에 따라
+\end{equation}
+이고, (2)에 따라
 \begin{equation} 
 P(T \cap M) = P(M|T)P(T) \\ = P(U|T)P(T) = P(T \cap U) 
 \end{equation}
