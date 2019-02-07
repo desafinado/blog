@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2019-02-07T12:09:37+00:00</updated><id>/blog/</id><title type="html">Desafinado</title><subtitle>slightly out of tune</subtitle><entry><title type="html">Halfer인가? Thirder인가? - The Sleeping Beauty Controversy</title><link href="/blog/SB" rel="alternate" type="text/html" title="Halfer인가? Thirder인가? - The Sleeping Beauty Controversy" /><published>2019-01-06T00:00:00+00:00</published><updated>2019-01-06T00:00:00+00:00</updated><id>/blog/SB</id><content type="html" xml:base="/blog/SB">&lt;p&gt;Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) &lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2019-02-07T12:16:17+00:00</updated><id>/blog/</id><title type="html">Desafinado</title><subtitle>slightly out of tune</subtitle><entry><title type="html">Halfer인가? Thirder인가? - The Sleeping Beauty Controversy</title><link href="/blog/SB" rel="alternate" type="text/html" title="Halfer인가? Thirder인가? - The Sleeping Beauty Controversy" /><published>2019-01-06T00:00:00+00:00</published><updated>2019-01-06T00:00:00+00:00</updated><id>/blog/SB</id><content type="html" xml:base="/blog/SB">&lt;p&gt;Consider the following problem, stated here in the third person(Sleeping Beauty, or SB) &lt;br /&gt;
 Sleeping Beauty agrees to the following experiment. On Sunday, she is put to sleep, and a fair coin is flipped.
 If it comes up Heads, she is awakened on Monday morning; if Tails, she is awakened on Monday morning and again on Tuesday morning.
 In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening.
@@ -46,12 +46,12 @@ Tails(T) \thinspace and \thinspace Monday(M);
 
 &lt;p&gt;따라서 (1)에 의해
 \begin{equation} 
-P(H \cap M) = P(H|M)P(M) \ = P(T|M)P(M) = P(T \cap M) 
+P(H \cap M) = P(H|M)P(M) = P(T|M)P(M) = P(T \cap M) 
 \end{equation}&lt;/p&gt;
 
 &lt;p&gt;이고, (2)에 따라
 \begin{equation} 
-P(T \cap M) = P(M|T)P(T) \ = P(U|T)P(T) = P(T \cap U) 
+P(T \cap M) = P(M|T)P(T) = P(U|T)P(T) = P(T \cap U) 
 \end{equation}
 임으로,
 \begin{equation} P(H \cap M) =  P(T \cap M) = P(T \cap U) \end{equation}
