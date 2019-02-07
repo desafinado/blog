@@ -108,24 +108,7 @@
       { % include mathjax_support % } 
     { % endif % }
     -->
-    <script type="text/javascript">
-    window.MathJax = {
-        AuthorInit: function () {
-        MathJax.Hub.Register.StartupHook("Begin",function () {
-            MathJax.Hub.Queue(function () {
-                var math = document.getElementsByClassName("MathJax");
-                for(var i=0; i<math.length; i++){
-                    var w = math[i].offsetWidth, W = math[i].parentNode.offsetWidth-0;
-                    if (w > W) {
-                        math[i].style.fontSize = (100*W/w)+"%";
-                    }
-                }
-            });
-        });
-        }
-    };
-    </script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
 </head>
 <body class="post-template">
 
@@ -247,12 +230,12 @@ Tails(T) \thinspace and \thinspace Monday(M);
 
 <p>따라서 (1)에 의해
 \begin{equation} 
-P(H \cap M) = P(H|M)P(M) = P(T|M)P(M) = P(T \cap M) 
+P(H \cap M) = P(H|M)P(M) \\ = P(T|M)P(M) = P(T \cap M) 
 \end{equation}</p>
 
 <p>이고, (2)에 따라
 \begin{equation} 
-P(T \cap M) = P(M|T)P(T) = P(U|T)P(T) = P(T \cap U) 
+P(T \cap M) = P(M|T)P(T) \\ = P(U|T)P(T) = P(T \cap U) 
 \end{equation}
 임으로,
 \begin{equation} P(H \cap M) =  P(T \cap M) = P(T \cap U) \end{equation}
