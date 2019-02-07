@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/book/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-02-06T15:50:36+00:00</updated>
+  <updated>2019-02-07T12:09:37+00:00</updated>
   <id>/blog/tag/book/feed.xml</id>
 
   
@@ -57,7 +57,7 @@ If it comes up Heads, she is awakened on Monday morning; if Tails, she is awaken
 In all cases, she is not told the day of the week, is put back to sleep shortly after, and will have no memory of any Monday or Tuesday awakening.
 When Sleeping Beauty is awakened on Monday or Tuesday, what–to her–is the probability that the coin came up Heads?&lt;/p&gt;
 
-&lt;p&gt;저번 하와이 여행에서 반스앤노블에 갔다. 하와이 여행을 많이 다니기는 한 것 같다. 하와이 반스앤노블이라니.
+&lt;p&gt;저번 하와이 여행에서 반스앤노블에 갔다. 하와이 여행을 많이 다니기는 한 것 같다. 하와이에서 책방이라니.
 와! 외국에서 서점은 색다른 경험이었다. 아마존이나 교보문고의 해외서적 코너에서는 발견할 수 없는 재미있는 책들이 정말 많았다. 
 그 중에 잠자는 숲 속의 미녀 논쟁을 읽게된 건 &lt;a href=&quot;https://www.amazon.com/Best-Writing-Mathematics-2018/dp/0691182760/ref=sr_1_1?ie=UTF8&amp;amp;qid=1549450838&amp;amp;sr=8-1&amp;amp;keywords=the+best+writing+on+mathematics+2018&quot;&gt;The Best Writing on Mathematics 2018&lt;/a&gt;책에서 였다. 해마다 수학에 대한 좋은 글을 모아 놓은 책인데, 다양한 재미난 읽을 거리들이 있다. “학제적인 모델링을 공부하고 가르치기”, “문제 풀이에 필수적인 6가지 질문” 등 다채롭다. 나름 확률론과 가까운 통계학을 공부해보았으니 가장 빨리 손이 간 주제가 바로 “The Sleeping Beauty Controversy”이다. 아마존 미리보기에서 The Sleeping Beauty Controversy는 대부분 볼 수 있다.&lt;/p&gt;
 
@@ -88,7 +88,8 @@ Tails(T) \thinspace and \thinspace Tuesday(U);
 \end{equation}
 \begin{equation}
 Tails(T) \thinspace and \thinspace Monday(M);
-\end{equation}&lt;/p&gt;
+\end{equation}
+직관적 풀이라면 이쯤에서 끝날 거 같다.&lt;/p&gt;
 
 &lt;p&gt;SB가 월요일날 깨어나서 오늘이 어떤 요일인지 이야기를 들었을 때, symmetric한 동전이라면 다음의 확률은 서로 같다.
 \begin{equation} P(H|M) = P(T|M) \thinspace …(1) \end{equation}&lt;/p&gt;
@@ -98,12 +99,12 @@ Tails(T) \thinspace and \thinspace Monday(M);
 
 &lt;p&gt;따라서 (1)에 의해
 \begin{equation} 
-P(H \cap M) = P(H|M)P(M) = P(T|M)P(M) = P(T \cap M) 
+P(H \cap M) = P(H|M)P(M) \ = P(T|M)P(M) = P(T \cap M) 
 \end{equation}&lt;/p&gt;
 
 &lt;p&gt;이고, (2)에 따라
 \begin{equation} 
-P(T \cap M) = P(M|T)P(T) = P(U|T)P(T) = P(T \cap U) 
+P(T \cap M) = P(M|T)P(T) \ = P(U|T)P(T) = P(T \cap U) 
 \end{equation}
 임으로,
 \begin{equation} P(H \cap M) =  P(T \cap M) = P(T \cap U) \end{equation}
