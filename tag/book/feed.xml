@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/book/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-02-07T12:59:58+00:00</updated>
+  <updated>2019-02-07T13:06:43+00:00</updated>
   <id>/blog/tag/book/feed.xml</id>
 
   
@@ -96,25 +96,21 @@ Tails(T) \thinspace and \thinspace Monday(M);
 &lt;p&gt;SB가 깨어나서 동전이 뒷면(Tails)이라고 들었을 때, 월요일(M)이거나 화요일(U)일 확률도 같다. 
 \begin{equation} P(M|T) = P(U|T) \thinspace …(2) \end{equation}&lt;/p&gt;
 
-&lt;p&gt;따라서 (1)에 의해&lt;/p&gt;
-
-&lt;p&gt;\begin{equation} 
+&lt;p&gt;따라서 (1)에 의해
+\begin{equation} 
 P(H \cap M) = P(H|M)P(M) \\ = P(T|M)P(M) = P(T \cap M) 
 \end{equation}&lt;/p&gt;
 
-&lt;p&gt;이고, (2)에 따라&lt;/p&gt;
-
-&lt;p&gt;\begin{equation} 
+&lt;p&gt;이고, (2)에 따라
+\begin{equation} 
 P(T \cap M) = P(M|T)P(T) \\ = P(U|T)P(T) = P(T \cap U) 
 \end{equation}&lt;/p&gt;
 
-&lt;p&gt;임으로,&lt;/p&gt;
-
-&lt;p&gt;\begin{equation} 
+&lt;p&gt;임으로,
+\begin{equation} 
 P(H \cap M) =  P(T \cap M) = P(T \cap U) 
-\end{equation}&lt;/p&gt;
-
-&lt;p&gt;이다.&lt;/p&gt;
+\end{equation} 
+이다.&lt;/p&gt;
 
 &lt;p&gt;위 3가지 사건은 mutually exclusive and exhaustive 함으로 각 확률의 합계는 1이다. 
 원래 문제로 돌아가서 \begin{equation} P(H) = P(H \cap M) = 1/3 \end{equation} 
