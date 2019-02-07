@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/book/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2019-02-07T12:53:21+00:00</updated>
+  <updated>2019-02-07T12:59:11+00:00</updated>
   <id>/blog/tag/book/feed.xml</id>
 
   
@@ -106,31 +106,21 @@ SB가 깨어나서 동전이 뒷면(Tails)이라고 들었을 때, 월요일(M)�
 
 &lt;p&gt;따라서 (1)에 의해&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;\begin{equation} P(H \cap M) = P(H&lt;/td&gt;
-      &lt;td&gt;M)P(M) \\ = P(T&lt;/td&gt;
-      &lt;td&gt;M)P(M) = P(T \cap M) \end{equation}&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;\begin{equation} 
+P(H \cap M) = P(H|M)P(M) \\ = P(T|M)P(M) = P(T \cap M) 
+\end{equation}&lt;/p&gt;
 
 &lt;p&gt;이고, (2)에 따라&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;\begin{equation} P(T \cap M) = P(M&lt;/td&gt;
-      &lt;td&gt;T)P(T) \\ = P(U&lt;/td&gt;
-      &lt;td&gt;T)P(T) = P(T \cap U) \end{equation}&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;\begin{equation} 
+P(T \cap M) = P(M|T)P(T) \\ = P(U|T)P(T) = P(T \cap U) 
+\end{equation}&lt;/p&gt;
 
 &lt;p&gt;임으로,&lt;/p&gt;
 
-&lt;p&gt;\begin{equation} P(H \cap M) =  P(T \cap M) = P(T \cap U) \end{equation}&lt;/p&gt;
+&lt;p&gt;\begin{equation} 
+P(H \cap M) =  P(T \cap M) = P(T \cap U) 
+\end{equation}&lt;/p&gt;
 
 &lt;p&gt;이다.&lt;/p&gt;
 
