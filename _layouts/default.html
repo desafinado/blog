@@ -40,6 +40,16 @@
       { % include mathjax_support % } 
     { % endif % }
     -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+        "HTML-CSS": { linebreaks: { automatic: true, width: "90% container" } },
+        "SVG": { linebreaks: { automatic: true, width: "90% container" } } 
+     });
+    </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_SVG"></script>
 </head>
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %}">
