@@ -229,5 +229,20 @@ AF는 카타르 중동을 경유하거나, 호주를 경유하거나, 한국을 
       </item>
       
     
+      
+      <item>
+        <title>MathjaxTest</title>
+        
+          <description>&lt;p&gt;This formula $f(x) = x^2$ is an example.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 01 Jan 2000 10:00:00 +0000</pubDate>
+        <link>
+        /MathjaxTest</link>
+        <guid isPermaLink="true">/MathjaxTest</guid>
+      </item>
+      
+    
   </channel>
 </rss>
