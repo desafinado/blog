@@ -34,6 +34,10 @@
     <![endif]-->
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
+
     {% include head.html %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_SVG"></script>
 </head>
@@ -138,7 +142,7 @@
         {% include page-scripts.html %}
     {% endif %}
     -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
     <!-- ghost_foot -->
 
