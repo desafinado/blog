@@ -19,3 +19,5 @@ $$
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
 $$
+
+test long line split $= 2[2W(k-2) + (k-1)2^{k-1}] + k2^k= 2^2W(k-2)+(k-1)2^{k-1}+ k2^k$
