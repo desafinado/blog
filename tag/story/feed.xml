@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/blog/tag/story/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/blog/" rel="alternate" type="text/html" />
-  <updated>2020-03-06T13:28:41+00:00</updated>
+  <updated>2020-03-06T14:15:19+00:00</updated>
   <id>/blog/tag/story/feed.xml</id>
 
   
@@ -51,23 +51,22 @@
       <published>2020-03-06T00:00:00+00:00</published>
       <updated>2020-03-06T00:00:00+00:00</updated>
       <id>/blog/staticblog</id>
-      <content type="html" xml:base="/blog/staticblog">&lt;p&gt;블로그 쓰기&lt;/p&gt;
+      <content type="html" xml:base="/blog/staticblog">&lt;p&gt;블로그 쓰기
+난 소프트웨어 개발자도 아니고, 컴퓨터 만지는 것을 아주 아주 좋아하는 것도, 능숙한 것도 아니다.
+이 블로그에 글을 쓰기 위해서는 뭘 좀 해야하는데, 그게 귀찮아서 워드프레스 같은 블로그 도구를 이용하려다가도
+몇 가지 재미있는 포인트들이 있어서 계속 쓰게된다.&lt;/p&gt;
 
-&lt;p&gt;난 소프트웨어 개발자도 아니고, 컴퓨터 만지는 것을 아주 아주 좋아하는 것도 능숙한 것도 아니다.
-그래도 이 블로그에 글을 쓰기 위해서는 뭘 좀 해야하는데, 귀찮아서 그냥 워드프레스 같은 블로그 도구를 이용하려다가도
-몇 가지 재미있는 포인트들이 있어서 계속 쓰게된다.
-이 블로그가 web-site로 생성되는 과정을 정확하게 이해하지 못하지만 그래도 남겨본다.&lt;/p&gt;
-
-&lt;p&gt;메모장 같은 텍스트에디터인 Vim을 열고 적는다. 그리고 파일로 저장한다.
-이 파일은 Jekyll이라는 simple하고 static한 site 개발툴(규칙이 있으며 어떤 명령에 따라 수정되고 생성되는 폴더와 파일더미들) 안에서 web-site로 만들어진다. 
-결국 web-site에 보일 html파일을 만들어낸다.&lt;/p&gt;
+&lt;p&gt;이 블로그가 web-site로 생성되는 과정을 정확하게 이해하지 못하지만 내가 알고 있는 수준으로 설명을 해본다.
+메모장 같은 텍스트에디터인 Vim을 열고 적는다. 그리고 파일로 저장한다.
+이 파일은 Jekyll이라는 simple하고 static한 site를 개발하는 툴(규칙이 있으며 어떤 명령에 따라 수정되고 생성되는 폴더와 파일 더미들)을 통해 web-site로 만들어진다. 
+site를 개발하는 툴은 결국 web-site에 보일 html파일을 만들어내는 기능을 한다.&lt;/p&gt;
 
 &lt;p&gt;simple하고 static한 site를 만들어 내는 것을 목적으로 하지만 그래도 너무 허전하면 재미가 없어서
 여러사람들이 여러 다양한 theme를 만들어서 공유한다. 이 블로그는 Jasper2 theme를 이용하였다. 
 theme를 내가 생각하는 방향에 맞게 수정을 좀 하게된다. 이때 초보자 수준의 html, Markdown 문법을 알면 조금 편하다.^^*&lt;/p&gt;
 
 &lt;p&gt;site를 만들었으면 Web에 올려야하는데 이때 서버 공간을 github가 제공해주는 것을 쓰고 있다. 
-그래서 git을 좀 알아야한다. 개발자들이 프로젝트하면서 버전관리하는 수준으로는 모르지만
+그래서 git을 좀 알아야한다. 개발자들이 프로젝트하면서 버전관리하는 수준에는 못미치더라도
 역시 초보자 수준으로는 알아야한다.&lt;/p&gt;
 
 &lt;p&gt;theme가 좀 단순하면 파일을 저장한 PC에서 html을 생성하여 github에 올리면 된다. 
@@ -116,7 +115,7 @@ Static을 하나 놓고 바뀌어 가는 것들을 맞춰나가다 보니 이것
       
 
       
-        <summary type="html">블로그 쓰기</summary>
+        <summary type="html">블로그 쓰기 난 소프트웨어 개발자도 아니고, 컴퓨터 만지는 것을 아주 아주 좋아하는 것도, 능숙한 것도 아니다. 이 블로그에 글을 쓰기 위해서는 뭘 좀 해야하는데, 그게 귀찮아서 워드프레스 같은 블로그 도구를 이용하려다가도 몇 가지 재미있는 포인트들이 있어서 계속 쓰게된다.</summary>
       
 
       
